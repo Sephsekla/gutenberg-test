@@ -1,17 +1,16 @@
 ( function( blocks, element ) {
 	var el = element.createElement;
-	var __ = i18n.__;
 
 	var blockStyle = {
 		backgroundColor: '#fafafa',
 		color: '#111111',
-		padding: '45px',
-    border-radius: '5px'
+		padding: '45px'
+
 	};
 
-	blocks.registerBlockType( 'jb_gutenberg', {
-		title: __( 'JB: First Block', 'jb_gutenberg' ),
-		icon: 'dashicons-businessman',
+	blocks.registerBlockType( 'jb_gutenberg/basic-block', {
+		title:  'JB: First Block',
+		icon: 'universal-access-alt',
 		category: 'layout',
 		edit: function() {
 			return el(
