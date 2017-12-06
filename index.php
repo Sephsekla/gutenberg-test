@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
 function jb_block_basic_assets(){
 
 wp_enqueue_script('jb-basic-block',
-plugins_url('block.js',_FILE_),
+plugins_url('block.js', __FILE__),
 array('wp-blocks','wp-element'),
 filemtime( plugin_dir_path( __FILE__ ) . 'block.js' )
 );
