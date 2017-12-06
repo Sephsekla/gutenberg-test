@@ -15,7 +15,7 @@ function jb_block_basic_assets(){
 
 wp_enqueue_script('jb-basic-block',
 
-plugins_rul('block.js',_FILE),
+plugins_url('block.js',_FILE),
 array('wp-blocks','wp-element'),
 filemtime( plugin_dir_path( __FILE__ ) . 'block.js' )
 );
