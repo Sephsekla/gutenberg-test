@@ -8,7 +8,7 @@
 
 	};
 
-	blocks.registerBlockType( 'jb_gutenberg/basic-block', {
+	blocks.registerBlockType( 'jb-gutenberg/basic-block', {
 		title:  'JB: First Block',
 		icon: 'universal-access-alt',
 		category: 'layout',
